@@ -28,7 +28,7 @@
 
 <?php
 
-$Link=mysqli_connect('localhost','u0959228_4c8d65f','Tujh20052002','u0959228_4c8d65f');
+$Link=mysqli_connect();
 
 if(!$Link)die('Нет подключения к БД!');
 
