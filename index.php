@@ -15,7 +15,7 @@ if(isset($_GET["exit"]))
 	 unset($_SESSION["name"]);
 	 unset($_SESSION["roles"]);
 	 unset($_SESSION);}
-$Link=mysqli_connect('localhost','u0959228_4c8d65f','Tujh20052002','u0959228_4c8d65f');
+$Link=mysqli_connect();
 if(!$Link)die('Нет подключения к БД!');
 @mysqli_query($Link,'SET NAMES utf8'); 
 if(isset($_GET["new_user"]))
