@@ -106,7 +106,7 @@ if(!isset($_SESSION["id"]))
 	</form>
 	";
 //'localhost','itkv','ITkv2020','IT_db'
-//'localhost','u0959228_4c8d65f','Tujh20052002','u0959228_4c8d65f'
+//'localhost','u0959228_4c8d65f','password','u0959228_4c8d65f'
 ?>
 
 </body>
